@@ -1,8 +1,5 @@
 algoritmo "Eleicao"
-// Função : Contar quantidade de Eleitores de uma cidade
-// Autor :  Alexandre F. Silva
-// Data : 12/11/2021
-// Seção de Declarações
+
 var
 Idade, obrigatorio, facultativo, naoeleitor : real
 resp: Caractere
