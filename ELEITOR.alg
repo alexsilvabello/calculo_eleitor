@@ -1,10 +1,10 @@
 algoritmo "Eleicao"
-// Função : Contar quantidade de Eleitores de uma cidade
+// FunÃ§Ã£o : Contar quantidade de Eleitores de uma cidade
 // Autor :  Alexandre F. Silva
 // Data : 12/11/2021
-// Seção de Declarações
+// SeÃ§Ã£o de DeclaraÃ§Ãµes
 var
-cont, Idade, obrigatorio, facultativo, naoeleitor : real
+Idade, obrigatorio, facultativo, naoeleitor : real
 resp: Caractere
 
 inicio
@@ -30,13 +30,13 @@ inicio
       fimse
       fimse
       
-      Escreva ("Você quer continuar? [S/N] ")
+      Escreva ("VocÃª quer continuar? [S/N] ")
          Leia (resp)
       Ate (resp = "N")
 
       Escreval ("Quantidade de eleitores obrigatorios: ", obrigatorio)
       Escreval ("Quantidade de eleitores facultativos: ", facultativo)
-      Escreval ("Quantidade considerado não eleitor: ", naoeleitor)
+      Escreval ("Quantidade considerado nÃ£o eleitor: ", naoeleitor)
       
 fimalgoritmo
 
